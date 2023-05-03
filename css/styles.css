@@ -149,7 +149,7 @@ ul {
 .main-subtitle {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11;
+  line-height: 1.1;
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
@@ -285,11 +285,13 @@ ul {
   flex-basis: calc((100% - 48px) / 3);
 }
 .card-portfolio {
-  display: block;
   min-width: 360px;
 }
-.card-portfolio:hover,
-.card-portfolio:focus {
+.link-portfolio {
+  display: block;
+}
+.link-portfolio:hover,
+.link-portfolio:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
