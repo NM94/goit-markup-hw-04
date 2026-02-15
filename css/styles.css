@@ -374,7 +374,7 @@ button {
 }
 
 .portfolio-item:hover .portfolio-overlay-subtitle {
-    transform: translateY(0);
+    transform: translateY(0%);
 }
 
 .portfolio-container {
