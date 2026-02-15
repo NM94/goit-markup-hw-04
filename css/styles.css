@@ -399,7 +399,7 @@ button {
     transition: transform var(--transition-duration-and-func);
 }
 
-.portfolio-item:hover .portfolio-overlay-subtitle {
+.portfolio-card-link:hover .portfolio-overlay-subtitle {
     transform: translateY(0%);
 }
 
