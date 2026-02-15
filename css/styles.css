@@ -163,13 +163,14 @@ button {
     color: var(--secondary-cl);
     padding-top: 24px;
     padding-bottom: 24px;
+    transition: color var(--transition-duration-and-func);
     
 }
 
 .menu-link:hover,
 .menu-link:focus {
     color: var(--main-hover-cl);
-    transition: color var(--transition-duration-and-func);
+    
 }
 
 .menu-link::after {
@@ -198,12 +199,13 @@ button {
     display: block;
     padding-top: 24px;
     padding-bottom: 24px;
+    transition: color var(--transition-duration-and-func);
 }
 
 .address-menu-link:hover,
 .address-menu-link:focus {
     color: var(--main-hover-cl);
-    transition: color var(--transition-duration-and-func);
+    
 }
 
 /* ===================== HERO STYLES ===================== */
@@ -432,8 +434,10 @@ button {
     margin-bottom: 16px;
 }
 
-/* .footer-social-item {
-} */
+.footer-social-list {
+    gap: 16px;
+
+}
 
 .footer-social-link:hover,
 .footer-social-link:focus {
