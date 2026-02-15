@@ -373,8 +373,8 @@ button {
     transition: transform var(--transition-duration-and-func);
 }
 
-.portfolio-card-link.hover .portfolio-overlay-subtitle,
-.portfolio-card-link.focus .portfolio-overlay-subtitle {
+.portfolio-card-link:hover .portfolio-overlay-subtitle,
+.portfolio-card-link:focus .portfolio-overlay-subtitle {
     transform: translateY(0);
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
@@ -383,7 +383,6 @@ button {
     border: 1px solid var(--border-card-cl);
     border-top: none;
 }
-
 
 .portfolio-thumb {
     position: relative;
