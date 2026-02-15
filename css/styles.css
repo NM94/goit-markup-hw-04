@@ -373,9 +373,6 @@ button {
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
-.portfolio-item:hover .portfolio-overlay-subtitle {
-    transform: translateY(0%);
-}
 
 .portfolio-container {
     border: 1px solid var(--border-card-cl);
@@ -390,19 +387,21 @@ button {
 
 .portfolio-overlay-subtitle {
     position: absolute;
-    top: 0px;
-    left: 0px;
+    top: 0;
     width: 100%;
     height: 100%;
     padding: 40px 32px;
     color: var(--cloud-cl);
-    line-height: 150%;
+    line-height: 1.50;
     letter-spacing: 0.02em;
     background-color: var(--iris-cl);
     transform: translateY(100%);
     transition: transform var(--transition-duration-and-func);
 }
 
+.portfolio-item:hover .portfolio-overlay-subtitle {
+    transform: translateY(0%);
+}
 
 /* ===================== FOOTER STYLES ===================== */
 
