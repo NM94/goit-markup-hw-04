@@ -66,6 +66,7 @@ button {
 
 .container-flex {
     display: flex;
+    align-items: baseline;
 }
 
 .main-logo {
@@ -132,6 +133,9 @@ button {
 
 .page-header {
     border-bottom: 1px solid var(--border-card-cl);
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .logo-header {
@@ -241,12 +245,12 @@ button {
     border-radius: 4px;
     min-width: 169px;
     height: 56px;
+    transition: background-color var(--transition-duration-and-func);
 
 }
 .hero-btn:hover,
 .hero-btn:focus {
     background-color: var(--main-hover-cl);
-    transition: background-color var(--transition-duration-and-func);
 }
 
 /* ===================== FEATURE STYLES ===================== */
@@ -262,6 +266,8 @@ button {
 .feature-container {
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 112px;
     padding: 24px 0;
     margin-bottom: 8px;
     background-color: var(--cloud-cl);
@@ -308,22 +314,22 @@ button {
 .team-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    padding-left: 0;
+    padding-right: 0;
     
 }
 
 .team-social-list {
-    font-size: 0;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
 }
 
-.team-social-item {
-    display: inline-block;
-    margin-right: 24px;
-}
+/* .team-social-item {
+    
+} */
 
-.team-social-item:last-child {
-    margin-right: 0px;
-}
+
 
 .team-social-link {
     display: flex;
@@ -426,9 +432,8 @@ button {
     margin-bottom: 16px;
 }
 
-.footer-social-item {
-    margin-right: 16px;
-}
+/* .footer-social-item {
+} */
 
 .footer-social-link:hover,
 .footer-social-link:focus {
